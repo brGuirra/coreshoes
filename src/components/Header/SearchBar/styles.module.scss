@@ -1,0 +1,40 @@
+.searchBar {
+  padding: 0.5rem;
+
+  &::after {
+    content: '';
+    display: block;
+    width: 280px;
+    height: 2px;
+    background: var(--gray-300);
+    border-radius: 3px;
+    margin-top: 5px;
+  }
+}
+
+.searchBarWrapper {
+  display: flex;
+  align-items: center;
+
+  svg {
+    fill: var(--gray-300);
+    margin-right: 0.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  input {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    
+    &::placeholder {
+      color: var(--gray-300);
+      opacity: 1;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.menu {
+  display: flex;
+  align-items: center;
+
+  li + li {
+    margin-left: 2rem;
+  }
+}
+
+.menuItem {
+  a {
+    font-weight: bold;
+    padding: 0.5rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  button {
+    background: transparent;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin-right: 0.5rem;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
