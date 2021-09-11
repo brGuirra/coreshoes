@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  // Colors
+  --white: #F4F9F9;
+  --black: #151515;
+  
+  --gray-50: #EEF0F1;
+  --gray-300: #7F7C82;
+
+  --yellow-500: #E9BF33;
+
+  --green-400: #50CB93;
+
+  --red-400: #FF2442;
+  --red-600: #D7182A;
+
+  // Font-sizes
+  --xs: 0.75rem;
+  --sm: 0.875rem;
+  --md: 1rem;
+  --lg: 1.5rem;
+}
+
+html {
+  font-size: var(--md);
+}
+
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background: var(--white);
+  color: var(--black);
+}
+
+h1 {
+  font-size: --var(lg);
+}
+
+body,
+input {
+  font: 400 var(--md) 'Nunito', sans-serif;
+}
+
+button{
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, a:visited {
+  color: inherit;
+}
