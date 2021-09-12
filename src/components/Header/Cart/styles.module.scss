@@ -4,6 +4,11 @@
   display: flex;
   align-items: center;
   position: relative;
+  transition-duration: 0.2s;
+
+  &:hover {
+    color: var(--yellow-500);
+  }
 
   svg {
     width: 1.5rem;

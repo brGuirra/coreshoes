@@ -11,9 +11,11 @@
   a {
     font-weight: bold;
     padding: 0.5rem;
+    transition-duration: 0.2s;
 
     &:hover {
       text-decoration: underline;
+      color: var(--yellow-500);
     }
   }
 
@@ -22,6 +24,7 @@
     padding: 0.5rem;
     display: flex;
     align-items: center;
+    transition-duration: 0.2s;
 
     svg {
       margin-right: 0.5rem;
@@ -29,6 +32,7 @@
 
     &:hover {
       text-decoration: underline;
+      color: var(--yellow-500);
     }
   }
 }

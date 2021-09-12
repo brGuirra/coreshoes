@@ -1,6 +1,7 @@
 .account {
   display: flex;
   align-items: center;
+  transition-duration: 0.2s;
 
   svg {
     width: 1.5rem;
@@ -10,5 +11,6 @@
 
   &:hover {
     text-decoration: underline;
+    color: var(--yellow-500);
   }
 }
