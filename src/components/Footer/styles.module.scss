@@ -1,0 +1,63 @@
+.footer {
+  background: var(--black);
+  color: var(--white);
+}
+
+.footerWrapper {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+.footerTitle {
+  margin-bottom: 1.5rem;
+  font-family: 'Monteserrant';
+
+  &:after {
+    content: '';
+    display: block;
+    width: 4rem;
+    height: 3px;
+    border-radius: 5px;
+    background: var(--yellow-500);
+
+    margin-top: 0.5rem;
+  }
+}
+
+.footerLocation {
+  p + p {
+    margin-top: 0.5rem;
+  }
+}
+
+.footerContacts {
+  margin: 0 auto;
+
+  button + button {
+    margin-top: 1rem;
+  }
+}
+
+.footerContactsButton {
+  width: 12rem;
+  height: 3rem;
+  padding: 1rem;
+  border-radius: 5px;
+  background: var(--yellow-500);
+  
+  display: flex;
+  align-items: center;
+
+  transition: 0.2s;
+
+  svg {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+
+  &:hover {
+    filter: brightness(0.8);
+  }
+}
